@@ -1,0 +1,42 @@
+.input {
+	display: grid;
+	padding: 2rem 0;
+}
+
+form {
+	width: 25rem;
+}
+
+label {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: larger;
+	font-weight: 700;
+	color: blueviolet;
+}
+
+input {
+	width: 100%;
+	border: 2px solid #000;
+	border-radius: 10px;
+	place-content: center;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 3px 3px 5px #000;
+	padding: 1rem;
+	font-size: 2rem;
+	text-transform: capitalize;
+	outline: none;
+}
+
+button {
+	width: 100%;
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 1rem;
+	outline: none;
+	text-transform: capitalize;
+	font-size: 2rem;
+	box-shadow: 3px 3px 5px #000;
+	margin-top: 1rem;
+}
